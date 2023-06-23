@@ -8,10 +8,12 @@
     /* Gradient background */
     --Light-slate-blue: hsl(252, 100%, 67%);
     --Light-royal-blue: hsl(241, 81%, 54%);
+    --bg-gradient: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
 
     /* Gradient circle */
     --Violet-blue: hsla(256, 72%, 46%, 1);
     --Persian-blue: hsla(241, 72%, 46%, 0);
+    --circle-gradient: linear-gradient(var(--Violet-blue), var(--Persian-blue));
 
     /* Neutral */
     --White: hsl(0, 0%, 100%);
@@ -20,12 +22,18 @@
 
     /* Continue Button */
     --Dark-gray-blue: hsl(224, 30%, 27%);
+    --bg-button: var(--Dark-gray-blue);
 
     /* Summary items */
     --Light-red: hsl(0, 100%, 67%);
     --Orangey-yellow: hsl(39, 100%, 56%);
     --Green-teal: hsl(166, 100%, 37%);
     --Cobalt-blue: hsl(234, 85%, 45%);
+
+    --bg-reaction: var(--Light-red);
+    --bg-memory: var(--Orangey-yellow);
+    --bg-verbal: var(--Green-teal);
+    --bg-visual: var(--Cobalt-blue);
 }
 
 /* Reset */
@@ -50,4 +58,33 @@ body {
     font-size: var(--fs-default);
     /* color: var(--Light-lavender); */
     /* color: var(--Pale-blue); */
+}
+
+.result {
+    background: var(--bg-gradient);
+}
+
+.score {
+    background: var(--circle-gradient);
+}
+
+.reaction {
+    background: var(--bg-reaction);
+}
+
+.memory {
+    background: var(--bg-memory);
+}
+
+.verbal {
+    background: var(--bg-verbal);
+}
+
+.visual {
+    background: var(--bg-visual);
+}
+
+.btn {
+    background: var(--bg-button);
+    font-size: var(--fs-default);
 }
