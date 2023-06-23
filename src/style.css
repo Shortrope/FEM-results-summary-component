@@ -1,54 +1,31 @@
-@font-face {
-    font-family: 'HankenGrotesk';
-    font-display: swap;
-    /* for performance */
-    font-weight: 100 900;
-    /* range of font weights */
-    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
 
 :root {
-    --color-primary-hsl-400: 252, 100%, 67%;
-    --color-primary-hsl-500: 256, 72%, 46%;
-    --color-secondary-hsl-400: 241, 81%, 54%;
-    --color-secondary-hsl-500: 241, 72%, 46%;
+    --font-family-default: 'Hanken Grotesk';
+    --fs-default: 1.125rem;
 
-    --color-neutral-hsl-100: 0, 0%, 100%;
-    --color-neutral-hsl-200: 221, 100%, 96%;
-    --color-neutral-hsl-300: 241, 100%, 89%;
-    --color-neutral-hsl-700: 224, 30%, 27%;
+    /* Gradient background */
+    --Light-slate-blue: hsl(252, 100%, 67%);
+    --Light-royal-blue: hsl(241, 81%, 54%);
 
-    --color-neutral-100: hsl(var(--color-neutral-hsl-100));
-    --color-neutral-200: hsl(var(--color-neutral-hsl-200));
-    --color-neutral-300: hsl(var(--color-neutral-hsl-300));
-    --color-neutral-700: hsl(var(--color-neutral-hsl-700));
+    /* Gradient circle */
+    --Violet-blue: hsla(256, 72%, 46%, 1);
+    --Persian-blue: hsla(241, 72%, 46%, 0);
 
-    --color-primary-400: hsl(var(--color-primary-hsl-400));
-    --color-primary-500: hsl(var(--color-primary-hsl-500));
-    --color-secondary-400: hsl(var(--color-secondary-hsl-400));
-    --color-secondary-500: hsl(var(--color-secondary-hsl-500));
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
 
-    --gradient-primary: linear-gradient(var(--color-primary-400),
-            var(--color-secondary-400));
-    --gradient-to-transparent: linear-gradient(var(--color-primary-500),
-            var(--color-secondary-500), 0);
+    /* Continue Button */
+    --Dark-gray-blue: hsl(224, 30%, 27%);
 
-    --color-accent-1: 0, 100%, 67%;
-    --color-accent-2: 39, 100%, 56%;
-    --color-accent-3: 166, 100%, 37%;
-    --color-accent-4: 234, 85%, 45%;
-
-    --font-family-default: 'HankenGrotesk';
-    --fw-regular: 500;
-    --fw-bold: 700;
-    --fw-black: 800;
-
-    --fs-400: 1.125rem;
-    --fs-500: 1.25rem;
-    --fs-600: 1.5rem;
-    --fs-700: 1.75rem;
-    --fs-800: 2rem;
-    --fs-900: 5rem;
+    /* Summary items */
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
 }
 
 /* Reset */
@@ -60,7 +37,6 @@
 
 * {
     margin: 0;
-    font: inherit;
 }
 
 img,
@@ -71,6 +47,7 @@ svg {
 
 body {
     font-family: var(--font-family-default);
-    font-size: var(--fs-400);
-    color: var(--color-neutral-700);
+    font-size: var(--fs-default);
+    /* color: var(--Light-lavender); */
+    /* color: var(--Pale-blue); */
 }
