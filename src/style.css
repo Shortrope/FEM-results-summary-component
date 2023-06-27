@@ -29,6 +29,7 @@
     --Orangey-yellow: hsl(39, 100%, 56%);
     --Green-teal: hsl(166, 100%, 37%);
     --Cobalt-blue: hsl(234, 85%, 45%);
+    --shadow-Cobalt-blue: hsl(234, 55%, 95%);
 
     --bg-reaction: var(--Light-red);
     --bg-memory: var(--Orangey-yellow);
@@ -74,6 +75,12 @@ body {
         justify-content: center;
         align-items: center;
         border-radius: 2rem;
+        box-shadow: 14px 18px 18px 4px var(--shadow-Cobalt-blue);
+    }
+
+    .result,
+    .summary {
+        width: 50%;
     }
 }
 
@@ -85,6 +92,7 @@ body {
 .result {
     background: var(--bg-gradient);
     border-radius: 0 0 2rem 2rem;
+    text-align: center;
 }
 
 @media (min-width: 600px) {
@@ -95,6 +103,17 @@ body {
 
 .score {
     background: var(--circle-gradient);
+    border-radius: 50%;
+    width: 12rem;
+    aspect-ratio: 1 / 1;
+    margin-inline: auto;
+    padding: 2rem;
+}
+
+.score span {
+    font-size: 5rem;
+    color: white;
+    display: block;
 }
 
 .reaction {
