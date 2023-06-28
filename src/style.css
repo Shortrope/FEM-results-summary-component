@@ -162,3 +162,24 @@ body {
     margin: 1em 1em;
     max-width: 28rem;
 }
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.btn {
+    background: var(--color-neutral-700);
+    color: var(--color-neutral-100);
+    font-size: var(--fs-500);
+    padding: 0.5em;
+    border-radius: 6em;
+}
+
+.btn:hover,
+.btn:focus-visible {
+    background: var(--color-primary-400);
+    border-color: transparent;
+}
