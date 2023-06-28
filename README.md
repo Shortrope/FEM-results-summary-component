@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Shortrope/FEM-results-summary-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [result-summary-component solution](https://github.com/Shortrope/FEM-results-summary-component)
+- Live Site URL: [Result Summary Component](https://shortrope.github.io/FEM-results-summary-component/)
 
 ## My process
 I would attempt this challenge and then learn about flexbox, css class naming, media queries or custom properties and then give it another try from scratch...  About 6 redo's on this one.
