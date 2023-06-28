@@ -86,6 +86,15 @@ body {
     color: var(--color-neutral-300);
 }
 
+.section-header {
+    font-size: var(--fs-500);
+    font-weight: var(--fw-bold);
+}
+
+.summary-header {
+    color: var(--color-neutral-700);
+}
+
 .result-component {
     box-shadow: 16px 20px 28px 8px hsl(221 50% 94% / .7);
     border-radius: 2rem;
