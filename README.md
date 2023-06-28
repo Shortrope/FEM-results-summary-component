@@ -14,7 +14,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -48,7 +47,6 @@ I would attempt this challenge and then learn about flexbox, css class naming, m
 - CSS custom properties
 - ideas on class naming conventions and organization
 - media queries
-To see how you can add code snippets, see below:
 
 
 ### Continued development
