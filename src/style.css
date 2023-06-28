@@ -31,7 +31,7 @@
     --gradient-primary: linear-gradient(var(--color-primary-400),
             var(--color-secondary-400));
     --gradient-to-transparent: linear-gradient(var(--color-primary-500),
-            var(--color-secondary-500), 0);
+            hsl(var(--color-secondary-hsl-500), 0));
 
     --color-hsl-accent-1: 0, 100%, 67%;
     --color-hsl-accent-2: 39, 100%, 56%;
@@ -123,10 +123,30 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 @media (min-width: 40rem) {
     .result {
         border-radius: 2rem;
     }
+}
+
+.result-score {
+    background: var(--gradient-to-transparent);
+    border-radius: 10em;
+    width: 12rem;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-score span {
+    color: var(--color-neutral-100);
+    font-size: var(--fs-900);
+    line-height: var(--fs-900);
+    font-weight: var(--fw-black);
+    display: block;
+
 }
