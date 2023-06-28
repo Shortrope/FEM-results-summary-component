@@ -101,3 +101,23 @@ body {
         width: 50%;
     }
 }
+
+.result,
+.summary {
+    padding: 2em;
+}
+
+.result {
+    background: var(--gradient-primary);
+    border-radius: 0 0 2rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 40rem) {
+    .result {
+        border-radius: 2rem;
+    }
+}
