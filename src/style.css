@@ -151,3 +151,14 @@ body {
     display: block;
 
 }
+
+.rank-heading {
+    color: var(--color-neutral-100);
+    font-size: var(--fs-800);
+    font-weight: var(--fw-bold);
+}
+
+.rank-explaination {
+    margin: 1em 1em;
+    max-width: 28rem;
+}
