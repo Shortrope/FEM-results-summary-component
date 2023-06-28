@@ -96,7 +96,7 @@ body {
 }
 
 .result-component {
-    box-shadow: 16px 20px 28px 8px hsl(221 50% 94% / .7);
+    box-shadow: 16px 20px 28px 8px hsl(var(--color-neutral-hsl-300), .14);
     border-radius: 2rem;
     max-width: 46rem;
 }
