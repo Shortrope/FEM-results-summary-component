@@ -170,6 +170,22 @@ body {
     gap: 1em;
 }
 
+.summary-item {
+    color: var(--color-neutral-700);
+    font-weight: var(--fw-bold);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.8em 0;
+    border-radius: 0.8rem;
+}
+
+.summary-item-icon {
+    stroke: #000;
+    display: inline;
+}
+
 .btn {
     background: var(--color-neutral-700);
     color: var(--color-neutral-100);
