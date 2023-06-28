@@ -33,10 +33,10 @@
     --gradient-to-transparent: linear-gradient(var(--color-primary-500),
             var(--color-secondary-500), 0);
 
-    --color-accent-1: 0, 100%, 67%;
-    --color-accent-2: 39, 100%, 56%;
-    --color-accent-3: 166, 100%, 37%;
-    --color-accent-4: 234, 85%, 45%;
+    --color-hsl-accent-1: 0, 100%, 67%;
+    --color-hsl-accent-2: 39, 100%, 56%;
+    --color-hsl-accent-3: 166, 100%, 37%;
+    --color-hsl-accent-4: 234, 85%, 45%;
 
     --font-family-default: 'HankenGrotesk';
     --fw-regular: 500;
@@ -69,8 +69,35 @@ svg {
     max-width: 100%;
 }
 
+
+@media (min-width: 40rem) {
+    main {
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
 body {
     font-family: var(--font-family-default);
     font-size: var(--fs-400);
-    color: var(--color-neutral-700);
+    color: var(--color-neutral-300);
+}
+
+.result-component {
+    box-shadow: 16px 20px 28px 8px hsl(221 50% 94% / .7);
+    border-radius: 2rem;
+    max-width: 46rem;
+}
+
+@media (min-width: 40rem) {
+    .result-component {
+        display: flex;
+    }
+
+    section {
+        width: 50%;
+    }
 }
