@@ -186,6 +186,42 @@ body {
     display: inline;
 }
 
+.reaction {
+    background: hsl(var(--color-hsl-accent-1), 0.1);
+    color: hsl(var(--color-hsl-accent-1));
+}
+
+.reaction svg {
+    stroke: hsl(var(--color-hsl-accent-1));
+}
+
+.memory {
+    background: hsl(var(--color-hsl-accent-2), 0.1);
+    color: hsl(var(--color-hsl-accent-2));
+}
+
+.memory svg {
+    stroke: hsl(var(--color-hsl-accent-2));
+}
+
+.verbal {
+    background: hsl(var(--color-hsl-accent-3), 0.1);
+    color: hsl(var(--color-hsl-accent-3));
+}
+
+.verbal svg {
+    stroke: hsl(var(--color-hsl-accent-3));
+}
+
+.visual {
+    background: hsl(var(--color-hsl-accent-4), 0.1);
+    color: hsl(var(--color-hsl-accent-4));
+}
+
+.visual svg {
+    stroke: hsl(var(--color-hsl-accent-4));
+}
+
 .btn {
     background: var(--color-neutral-700);
     color: var(--color-neutral-100);
