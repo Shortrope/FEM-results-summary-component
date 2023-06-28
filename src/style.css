@@ -172,6 +172,7 @@ body {
 
 .summary-item {
     color: var(--color-neutral-700);
+    font-size: var(--fs-500);
     font-weight: var(--fw-bold);
     padding: 1em;
     display: flex;
@@ -181,8 +182,15 @@ body {
     border-radius: 0.8rem;
 }
 
+.summary-item-score {
+    color: hsl(var(--color-neutral-hsl-700), 0.5);
+}
+
+.summary-item-score span {
+    color: hsl(var(--color-neutral-hsl-700));
+}
+
 .summary-item-icon {
-    stroke: #000;
     display: inline;
 }
 
